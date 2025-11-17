@@ -417,7 +417,21 @@
         }
 
         .navbar_section .mobile_close .icon {
-            color: var(--color-white-light);
+            position: absolute;
+            right: 2rem;
+            top: 2rem;
+            padding: .5rem;
+
+            font-size: var(--fontsize-40);
+            color: var(--color-primary-mute);
+            background-color: var(--color-highlight-header);
+            border-radius: 50%;
+            transition: all .3s ease;
+        }
+
+        .navbar_section .mobile_close .icon:hover {
+            color: var(--color-primary);
+            background-color: var(--color-black-mute);
         }
 
         /* Tablet and Mobile Navbar setup */
