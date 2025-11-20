@@ -299,8 +299,8 @@
     }
 
     .navbar_section .navbar_logo {
-        width: calc(150/16 *1rem);
-        height: calc(80/16 *1rem);
+        width: calc(125/16 *1rem);
+        height: calc(60/16 *1rem);
     }
 
     .navbar_section .navbar_content {
@@ -1113,9 +1113,9 @@
     }
 
     /* Footer default */
-    .footer_section h2 {
-        color: var(--color-white-light);
-        font-size: var(--fontsize-24);
+    .footer_section .footer_logo {
+        width: calc(125/16 *1rem);
+        height: calc(60/16 *1rem);
     }
 
     .footer_section h3 {
